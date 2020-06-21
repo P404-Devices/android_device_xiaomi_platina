@@ -158,7 +158,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.protected_contents=true \
     ro.vendor.display.cabl=0 \
     vendor.display.disable_skip_validate=1 \
-    vendor.display.enable_default_color_mode=1 \
+    vendor.display.enable_default_color_mode=0 \
     vendor.gralloc.enable_fb_ubwc=1
 
 # FRP
