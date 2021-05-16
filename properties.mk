@@ -1,7 +1,3 @@
-# APEX
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.apex.updatable=true
-
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     af.fast_track_multiplier=1 \
