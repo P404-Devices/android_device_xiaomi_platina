@@ -91,9 +91,6 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wake_gesture"
 
-# EXFAT
-TARGET_EXFAT_DRIVER := sdfat
-
 # FM
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
