@@ -1,0 +1,3 @@
+allow init apex_metadata_file:lnk_file { read };
+allow init iorapd_data_file:file { getattr };
+allow init logcat_exec:file { getattr };

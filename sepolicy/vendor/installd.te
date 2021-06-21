@@ -1,0 +1,1 @@
+allow installd storage_config_prop:file { open read };
