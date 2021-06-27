@@ -346,6 +346,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+# Platform
+PRODUCT_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := sdm660
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi_sdm660-libperfmgr \
