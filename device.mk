@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018-2020 The LineageOS Project
+# Copyright (C) 2021 Project 404
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -256,11 +257,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_sdm660
 
-# LiveDisplay native
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service-sysfs
-
 # Low power Whitelist
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
@@ -301,7 +297,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay-404
 
 # Perfd (dummy)
 PRODUCT_PACKAGES += \
@@ -433,10 +429,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
-
-# Trust
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # Thermal
 PRODUCT_PACKAGES += \

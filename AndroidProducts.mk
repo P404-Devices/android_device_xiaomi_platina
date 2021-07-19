@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018-2020 The LineageOS Project
+# Copyright (C) 2021 Project 404
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_platina.mk
+    $(LOCAL_DIR)/p404_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_platina-user \
-    lineage_platina-userdebug \
-    lineage_platina-eng
+    p404_platina-user \
+    p404_platina-userdebug \
+    p404_platina-eng
